@@ -19,7 +19,7 @@ function generator () {
         caracter.value,
         upperCase.checked,
         lowerCase.checked,
-        addNum.Checked,
+        addNum.checked,
         simbols.checked
     )
 

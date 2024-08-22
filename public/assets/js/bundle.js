@@ -27,7 +27,7 @@ var gen = document.querySelector('#gen');
   });
 });
 function generator() {
-  var password = (0,_generators__WEBPACK_IMPORTED_MODULE_0__["default"])(caracter.value, upperCase.checked, lowerCase.checked, addNum.Checked, simbols.checked);
+  var password = (0,_generators__WEBPACK_IMPORTED_MODULE_0__["default"])(caracter.value, upperCase.checked, lowerCase.checked, addNum.checked, simbols.checked);
   if (password.length < 4 || password.length > 20) return 'Escolha uma quantidade entre 4 e 20';
   return password || 'Nada selecionado';
 }
