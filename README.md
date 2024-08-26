@@ -43,7 +43,7 @@ After installation, follow these instructions to use the project:
 
 ## 🔧 Technologies Used
 
-- **Language/Framework**: HTML, CSS, JS, Boostrap, WebPack.
+- **Language/Framework**: HTML, CSS, JS, Boostrap and WebPack.
 
 ## 📜 License
 MIT License
