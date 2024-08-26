@@ -1,4 +1,4 @@
-# Project Name
+# Generate passsword
 
 ![Status Badge](https://img.shields.io/badge/status-invative-red)
 ![Version Badge](https://img.shields.io/badge/version-1.0.0-blue)
