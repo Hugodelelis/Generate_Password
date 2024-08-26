@@ -28,7 +28,7 @@ var gen = document.querySelector('#gen');
 });
 function generator() {
   var password = (0,_generators__WEBPACK_IMPORTED_MODULE_0__["default"])(caracter.value, upperCase.checked, lowerCase.checked, addNum.checked, simbols.checked);
-  if (password.length < 4 || password.length > 20) return 'Escolha uma quantidade entre 4 e 20';
+  if (password.length < 4 || password.length > 20) return 'Escolha entre 4 e 20 caractéres e pelo menos uma opçao.';
   return password || 'Nada selecionado';
 }
 

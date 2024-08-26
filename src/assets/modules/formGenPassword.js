@@ -23,7 +23,7 @@ function generator () {
         simbols.checked
     )
 
-    if (password.length < 4 || password.length > 20) return 'Escolha uma quantidade entre 4 e 20'
+    if (password.length < 4 || password.length > 20) return 'Escolha entre 4 e 20 caractéres e pelo menos uma opçao.'
 
     return password || 'Nada selecionado'
 }
