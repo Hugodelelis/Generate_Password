@@ -1,4 +1,3 @@
-import "core-js/stable";
 import "regenerator-runtime"
 
 import formGenPassword from './assets/modules/formGenPassword'

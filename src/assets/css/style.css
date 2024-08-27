@@ -10,7 +10,7 @@ body {
     padding: 1em 2em;
     border-radius: 2em;
     border: none;
-    min-width: 25em;
+    width: 25em;
 }
 
 .container h1 {
@@ -50,3 +50,10 @@ body {
     padding: 0.5em 1em;
     cursor: pointer;
 }
+
+@media (max-width: 767.98px) { 
+    .container {
+        width: 17em;
+        margin: 1em;
+    }
+} 
